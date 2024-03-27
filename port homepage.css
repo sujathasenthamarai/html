@@ -1,0 +1,229 @@
+#topbar{
+    background-color: white;
+    height: 30px;
+    width: 100%;
+    margin-left: 60px;
+}
+header h2{
+    float: left;
+    color: blueviolet;
+    margin-left: 180px;
+    margin-top: 9px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    float: right;
+    gap: 20px;
+    display: inline;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul a{
+    color: blueviolet;
+}
+section{
+    background-image: url(imagehny.1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 95vh;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content{
+    margin-left: 12vw;
+    width: 40vw;
+    position: relative;
+    top: 25vh;
+    line-height: 4px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content h3{
+    padding-left: 0px;
+}
+p{
+    line-height: 20px;
+}
+.btn{
+    background-color: aqua;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 12px 28px;
+  display: inline-block; 
+  margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about{
+    width: 100%;
+   margin-left:-20px ;
+background-color: white;
+background-image: none;
+}
+.about-text h2{
+font-size: 45px;
+text-transform: capitalize;
+margin-bottom: -20px;
+margin-left: -450px;
+margin-top: -20px;
+
+}
+.main{
+    width: 100px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-around;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin-left: -50px;
+}
+.about-text h4{
+    font-size: 30px;
+text-transform: capitalize;
+letter-spacing: 18px;
+margin-left: -450px;
+}
+.about-text p{
+    font-size: 18px;
+    text-transform: capitalize;
+     margin-bottom: 40px; 
+     margin-left: -450px; 
+     letter-spacing: 10px;
+    
+}
+button{ 
+            background-color: rgb(162, 12, 12);
+            color:white;
+            text-decoration: none;
+            border: 2px solid transparent;
+            font-weight: bold;
+            padding: 13px 15px;
+            border-radius:20px ;
+          margin-left: -450px;
+           }
+           .about-text{
+    margin-left: 25vw;
+    width: 40vw;
+    position: relative;
+ padding: 10vh;
+    top: 15vh;
+    margin-bottom: 200px;
+    align-items: center;
+    font-family: MS Reference Sans Serif;}
+
+    .Skills
+    {
+        background-color: white;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        height: 70vh;
+        width:100%;
+        display: grid;
+        position: relative;
+        place-items: center;
+    }
+    .Skills h1{
+        color: black;
+        margin-top: -100px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 60px;
+    
+       }
+    .card
+    {   margin-left: 40px;
+        margin-top: -150px;
+        margin-bottom: 200px;
+        border-radius: 30px;
+        min-height: 150px;
+        min-width: 250px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+    .card:nth-child(odd){
+        background: linear-gradient(-229deg,rgb(195, 255, 0),rgb(42, 96, 223));
+    }
+    .card:nth-child(even)
+    {
+        background: linear-gradient(-22deg,rgb(182, 29, 216),rgb(255, 106, 0));
+    }
+    .container
+    {
+        display: flex;
+        gap:50px;
+        animation: scroll 20s linear infinite;
+    }
+    @keyframes scroll{
+    0%{
+        transform: translate(0);
+    }
+    100%
+    {
+        transform: translateX(cal(250x*5));
+    }
+}
+/*---------contact---------*/
+.sub-title{
+    margin-top: -150px;
+}
+.contact-left{
+    flex-basis: 35%;
+}   
+.contact-right{
+    flex-basis: 60%;
+} 
+.contact-left p{
+    margin-top: 30px;
+}
+.contact-left p i{
+    color: #ff004f ;
+    margin-right: 15px;
+    font-size: 25px;
+}
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab ;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+
+}
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+}
+.contact-right form{
+    width: 100%;
+    display: flex;
+}
+form input, form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+.submit{
+    display: inline-block;
+    background: #ff004f;
+    margin-left: 10px;
+}
